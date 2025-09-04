@@ -1,5 +1,14 @@
+body {
+  margin: 1rem;
+  font-family: "proxima-nova","proxima nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #000;
+}
 table {
-  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
   border: 0;
 }
 
