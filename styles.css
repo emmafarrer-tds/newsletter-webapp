@@ -4,11 +4,16 @@ body {
   font-size: 14px;
   line-height: 1.5;
   font-weight: 400;
-  color: #000;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+button[data-mce-name="fontsize"],button[data-mce-name="fontsize"] .tox-tbtn__select-label {
+    width: fit-content !important;
 }
 
 a {
-  color: #00858d;
+  color: #00757c;
   font-weight: 500;
   text-decoration: none;
 }
@@ -32,7 +37,7 @@ p {
     margin: 0 0 10px
 }
 p:has(+ul), p:has(+ol) {
-  margin-bottom: 4px;
+  margin-bottom: 0;
 }
 
 table {
