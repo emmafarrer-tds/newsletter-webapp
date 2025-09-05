@@ -5,13 +5,22 @@ body {
   line-height: 1.5;
   font-weight: 400;
   color: #000000;
-  background-color: #ffffff;
+  background-color: transparent;
 }
 
+/* UI tweaks */
 button[data-mce-name="fontsize"], button[data-mce-name="fontsize"] .tox-tbtn__select-label {
     width: fit-content !important;
 }
+.tox-collection__item-checkmark {
+    display: none !important;
+}
+.tox-collection__item--enabled:not(.tox-collection__item--active) {
+    background-color: #ffd200 !important;
+}
 
+/* Typography styles */
+/* Links */
 a {
   color: #00757c;
   font-weight: 500;
@@ -22,10 +31,12 @@ a:hover, a:focus {
   text-decoration: underline;
 }
 
+/* Images */
 img {
   border-radius: 12px;
 }
 
+/* Dividers */
 hr {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -33,6 +44,7 @@ hr {
     border-top: 1px solid #ffd200;
 }
 
+/* Paragraphs */
 p {
     margin: 0 0 10px
 }
@@ -40,18 +52,18 @@ p:has(+ul), p:has(+ol) {
   margin-bottom: 2px;
 }
 
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-  border: 0;
-}
-
+/* Lists */
 ul, ol {
   margin: 0;
   margin-bottom: 10px;
   padding: 0;
 }
-
 li {
   margin: 0 0 6px 30px;
+}
+
+/* Span styles */
+span[style*="background-color"] {
+    padding-left: .25em;
+    padding-right: .25em;
 }
