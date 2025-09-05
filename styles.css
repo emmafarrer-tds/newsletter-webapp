@@ -8,7 +8,7 @@ body {
   background-color: #ffffff;
 }
 
-button[data-mce-name="fontsize"],button[data-mce-name="fontsize"] .tox-tbtn__select-label {
+button[data-mce-name="fontsize"], button[data-mce-name="fontsize"] .tox-tbtn__select-label {
     width: fit-content !important;
 }
 
@@ -37,7 +37,7 @@ p {
     margin: 0 0 10px
 }
 p:has(+ul), p:has(+ol) {
-  margin-bottom: 0;
+  margin-bottom: 2px;
 }
 
 table {
@@ -46,18 +46,12 @@ table {
   border: 0;
 }
 
-td {
-  border: 0;
-  padding: 0;
-}
-
-ul,
-ol {
+ul, ol {
   margin: 0;
-  margin-bottom: 1em;
+  margin-bottom: 10px;
   padding: 0;
 }
 
 li {
-  margin: 0 0 .5em 30px;
+  margin: 0 0 6px 30px;
 }
